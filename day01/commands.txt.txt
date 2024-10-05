@@ -1,0 +1,38 @@
+
+## First-Time Configuration
+Before using Git, set up your user information, which is included in each commit you make.
+
+
+# Configure your username
+git config --global user.name "Your Name"
+
+# Configure your email
+git config --global user.email "your.email@example.com"
+
+## nitializing a Repository
+To start tracking an existing project with Git:
+git init
+
+
+## Basic Git Workflow
+Modify files in your working directory.
+Stage the changes you want to include in the next commit using git add.
+Commit the changes to the repository with git commit.
+
+# Check the status of your files
+git status
+
+# Stage a specific file
+git add filename.txt
+
+# Stage all changes
+git add .
+
+# Commit changes with a message
+git commit -m "Add initial project files"
+
+
+Additional Commands:
+
+git config --list: View all your Git configurations.
+git help <command>: Get help for a specific Git command.
