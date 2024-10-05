@@ -10,6 +10,8 @@ What are Branches?
 First-Time Configuration
 Initializing a Repository
 Basic Git Workflow
+
+
 What is Version Control?
 Version control is a system that records changes to files over time, enabling you to recall specific versions later. It allows multiple people to collaborate on a project, track individual contributions, and revert to previous versions if necessary.
 
@@ -19,6 +21,8 @@ Collaboration among multiple developers
 Historical record of changes
 Ability to revert to previous versions
 Branching and merging features
+
+
 What is Distributed Version Control?
 Distributed Version Control Systems (DVCS) like Git allow every developer to have a full copy of the entire repository, including its complete history. This means you can work offline, and the system doesn't rely on a central server.
 
@@ -36,7 +40,7 @@ Staging Area (Index): A temporary area where you add changes to be included in t
 Repository: Where the commits are stored.
 
 What is a Commit?
-A commit is a snapshot of your staged changes in the repository. It represents a point in the project's history. Each commit has a unique identifier (SHA-1 hash), an author, a date, and a commit message.
+A commit is a snapshot of your staged changes in the repository. It represents a point in the project's history. Each commit has a unique identifier, an author, a date, and a commit message.
 
 Best Practices:
 
